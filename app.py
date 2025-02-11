@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 import tempfile
-from utils.audio_processing import extract_features
-from utils.prediction import predict_disease
+from audio_processing import extract_features
+from prediction import predict_disease
 import pandas as pd
 
 # Set page config
