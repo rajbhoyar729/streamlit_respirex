@@ -15,8 +15,8 @@ def predict_disease(model_path, mfcc, chroma, mel_spec):
     # Make predictions
     prediction = model.predict({
         "mfcc": mfcc,
-        "chroma": chroma,
-        "mel_spec": mel_spec
+        "croma": chroma,
+        "mspec": mel_spec
     })
 
     # Get predicted class and confidence
