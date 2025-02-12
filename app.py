@@ -24,7 +24,7 @@ def main():
     MODEL_PATH = os.path.join(os.getcwd(), "model", "rd.h5")
 
     # File uploader
-    uploaded_file = st.file_uploader("Upload an audio file", type=['wav', 'mp3'])
+    uploaded_file = st.file_uploader("Upload an audio file", type=['wav'])
 
     if uploaded_file is not None:
         # Show audio player
