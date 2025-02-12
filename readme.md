@@ -21,8 +21,8 @@ A machine learning-based web application that analyzes respiratory sound recordi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/respiratory-disease-predictor.git
-cd respiratory-disease-predictor
+git clone https://github.com/rajbhoyar729/streamlit_respirex.git
+cd streamlit_respirex
 ```
 
 2. Create and activate a virtual environment:
