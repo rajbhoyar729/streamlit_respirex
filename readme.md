@@ -15,7 +15,7 @@ A machine learning-based web application that analyzes respiratory sound recordi
 
 - Python 3.8 or higher
 - Virtual environment (recommended)
-- Audio files in WAV or MP3 format
+- Audio files in WAV  format
 
 ## ⚙️ Installation
 

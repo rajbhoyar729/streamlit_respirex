@@ -75,7 +75,7 @@ def main():
                     st.error(f"An error occurred: {str(e)}")
                     st.markdown("""
                     Please ensure:
-                    - The audio file is in a supported format (WAV or MP3)
+                    - The audio file is in a supported format (WAV)
                     - The file is not corrupted
                     - The audio contains clear respiratory sounds
                     """)
@@ -83,7 +83,7 @@ def main():
     # Add information section
     with st.expander("ℹ️ How to use this app"):
         st.markdown("""
-        1. **Upload Audio**: Click the upload button and select your audio file (WAV or MP3 format)
+        1. **Upload Audio**: Click the upload button and select your audio file (WAV format)
         2. **Review**: Listen to the uploaded audio to ensure it's correct
         3. **Analyze**: Click the 'Predict Disease' button to analyze the respiratory sounds
         4. **Results**: View the predicted condition and confidence score
